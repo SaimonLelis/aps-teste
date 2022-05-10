@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 100vw;
+}
+
+header{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 10px 0px;
+    height: 4vw;
+  
+    
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+}
+
+header li{
+    margin: 1.9vw 2vw;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 10vw;
+    font-family: 'Poppins';
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+
+header a{
+    text-decoration: none;
+    color: #5a5a5a;
+    padding: 0 5px;
+    border-radius: 5px;
+    position: relative;
+    letter-spacing: 0px;
+}
+
+header a::after{
+    content: "";
+    position: absolute;
+    background-color: #69A658;
+    height: 0.25vw;
+    width: 0%;
+    left: 0px;
+    bottom: -0.6vw;
+    transition: 0.2s;
+}
+
+header a:hover{
+    color: #000000;
+}
+
+header a:hover::after{
+    width: 100%;
+    background-color: #69A658;
+   
+}
+
+#logo{
+    max-height: 5vw;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 10px 1px;
+}
+
+#Header1{
+    height: min(35vh, 40vh);
+    width: 100%;
+    background-image: url('IMGs/Header1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    box-shadow: inset rgba(0, 0, 0, 0.50) 0px 0px 20px 5px;
+   /* display: block;
+    background-attachment: fixed;
+    height: 20vh 100%; */
+}
+
+main{
+    margin: 40px;
+    font-size: 1.4vw;
+    font-family: Arial;
+    color: rgb(77, 77, 77);
+}
+
+article h2{
+    margin: 0px 0px 5px 0px;
+    color: rgba(0, 0, 0, 0.80);
+    font-family: 'Poppins';
+    font-size: max(2.5vw, 3vw);
+}
+#sc1{
+    font-size: max(1.7vw, 2vw);
+}
+#sc1 p{
+    text-indent: 70px;
+    text-align: justify;
+}
+.Icons{
+    background-color: rgb(255, 255, 255);
+    padding: 15px 15px 50px;
+}
+.Caption{
+    text-align: justify;
+}
+.containder{
+    margin: auto;
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(17vw, 1fr));/*17vw 17vw 17vw;*/
+    grid-gap: 10rem;
+    text-align: center;
+    font-size: min(1.4em, 1.6em);
+    font-family: 'Roboto';
+    justify-content: center;
+    margin-top: 10vh;
+    line-height: initial;
+}
+.containder h4 {
+    font-size: 1.7vw;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.IcoIMG{
+    width: 12vw;
+}
