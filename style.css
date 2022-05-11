@@ -12,9 +12,8 @@
 }
 
 header{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 10px 0px;
     max-height: 8vh;
-    width: 100%;
+    width: auto;
 }
 
 header ul{
@@ -28,7 +27,7 @@ header li{
 
 header nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: auto 5vh;
     font-family: 'Poppins';
     font-size: 0.9rem;
@@ -75,7 +74,6 @@ header a:hover::after{
 #Header1{
     height: 40vh;
     width: 100%;
-    justify-content: center;
     background-image: url('IMGs/Header1.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -88,7 +86,7 @@ header a:hover::after{
 }
 
 main{
-    margin: 40px;
+    margin: 5vw;
     font-size: 1.2vw;
     font-family: Arial;
     color: rgb(77, 77, 77);
@@ -101,7 +99,7 @@ article h2{
     font-size: min(5vh, 3rem);
 }
 #sc1{
-    font-size: min(5vh, 1.4rem);
+    font-size: min(5vh, 1.7rem);
     font-family: Arial;
 }
 #at1{
@@ -126,20 +124,21 @@ article h2{
     margin: auto;
     max-width: 80vw;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(17vw, 1fr));/*17vw 17vw 17vw;*/
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));/*17vw 17vw 17vw;*/
+    grid-column: 3 /-1;
     grid-gap: 10rem;
     text-align: center;
-    font-size: min(1.4em, 1.6em);
+    font-size: 3.5vh;
     font-family: 'Roboto';
     justify-content: center;
     margin-top: 10vh;
-    line-height: initial;
+    line-height: normal;
 }
 .containder h4 {
-    font-size: 1.7vw;
+    font-size: 4vh;
     text-align: center;
     margin-bottom: 20px;
 }
 .IcoIMG{
-    width: 12vw;
+    width: 25vh;
 }
