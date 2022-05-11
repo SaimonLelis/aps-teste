@@ -30,7 +30,7 @@ header li{
 header nav{
     display: flex;
     justify-content: space-between;
-    margin: auto 6vh;
+    margin: auto 5vh;
     font-family: 'Poppins';
     font-size: 0.9rem;
     font-weight: 600;
