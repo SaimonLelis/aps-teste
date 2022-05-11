@@ -49,7 +49,7 @@ header a::after{
     content: "";
     position: absolute;
     background-color: #69A658;
-    height: 0.6vh;
+    height: 0.5vh;
     width: 0%;
     left: 0px;
     bottom: -1.2vh;
