@@ -8,7 +8,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    max-height: 100vh;
     max-width: 100%;
+    
 }
 
 header{
@@ -80,6 +82,7 @@ header a:hover::after{
     background-repeat: no-repeat;
     background-position: right bottom;
     box-shadow: inset rgba(0, 0, 0, 0.50) 0px 0px 20px 5px;
+    display: block;
    /* display: block;
     background-attachment: fixed;
     height: 20vh 100%; */
@@ -104,28 +107,28 @@ article h2{
 }
 #at1{
     position: relative;
-    width: 90%;
+    width: 100%;
+    height: auto;
     left: 5%;
 }
 #sc1 p{
-    width: 80vw;
+    width: 90%;
+    height: auto;
     margin-top: 30px;
     text-indent: 70px;
     text-align: justify;
-}
-.Icons{
-    background-color: rgb(255, 255, 255);
-    padding: 15px 15px 50px;
 }
 .Caption{
     text-align: justify;
 }
 .containder{
+    height: auto;
     margin: auto;
-    max-width: 80vw;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));/*17vw 17vw 17vw;*/
-    grid-column: 3 /-1;
+    max-width: 1000px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));/*17vw 17vw 17vw;*/
     grid-gap: 10rem;
     text-align: center;
     font-size: 3.5vh;
@@ -133,12 +136,93 @@ article h2{
     justify-content: center;
     margin-top: 10vh;
     line-height: normal;
+    box-sizing: border-box;
 }
 .containder h4 {
     font-size: 4vh;
     text-align: center;
     margin-bottom: 20px;
+    height: auto;
 }
 .IcoIMG{
-    width: 25vh;
+    height: 128px;
+    width: 128px;
+}
+main .cards{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    padding: 32px;
+
+}
+main.cards section.card{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 256px;
+    margin-left: 32px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+section.card .icon {
+    width: 64px;
+    height: 64px;;
+}
+section.card:first-child {
+    margin-left: 0px;
+}
+section.card h3{
+    margin: 10px 0;
+}
+section.card span{
+    max-width: 250px;
+    margin-bottom: 10px;
+}
+section.card button{
+    font-family: 'Poppins';
+    margin-top: 5px;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: white;
+}
+section.card.btn button{
+    background: linear-gradient(to right, #69A658, #99c970 );
+}
+section.card.btn{
+    box-shadow: 20px 20px 50px -30px #8baa70;
+}
+@media screen and (max-width: 720px) {
+    .containder{
+        flex-direction: column;
+    }
+    main.cards{
+        flex-direction: column;
+    }
+    section.card{
+        margin: 0px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+    section.card:last-child {
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+}
+.main1{
+    background-color: turquoise;
+    display: block;
+}
+.main2{
+    background-color: yellow;
+    display: block;
 }
