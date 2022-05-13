@@ -9,8 +9,7 @@
     padding: 0px;
     box-sizing: border-box;
     max-height: 100vh;
-    max-width: 100%;
-    
+    max-width: 100%; 
 }
 
 header{
@@ -154,6 +153,13 @@ article h2{
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin-top: 90px;
+}
+.flex1.fx2{
+    margin-top: 10px;
+}
+.flex1.fx3{
+    margin-top: 0px;
 }
 section.cards{
     display:flex;
@@ -170,7 +176,8 @@ section.cards section.card{
     flex-direction: column;
     padding: 1rem 1.5rem;
     border-radius: 8px;
-    max-height: 256px;
+    height: 340px;
+    width: 350px;
     margin-left: 32px;
     text-align: center;
     align-content: center;
@@ -178,12 +185,13 @@ section.cards section.card{
 }
 section.card .icon {
     width: 64px;
-    height: 64px;
+    height: 64px;;
 }
 section.card:first-child {
     margin-left: 0px;
 }
 section.card h3{
+    max-width: 250px;
     margin: 10px 0;
 }
 section.card span{
@@ -206,7 +214,7 @@ section.card.btn button{
     background: linear-gradient(to right, #69A658, #99c970 );
 }
 section.card.btn{
-    box-shadow: 20px 20px 50px -30px #8baa70;
+    box-shadow: 20px 20px 50px -43px #8baa70;
 }
 @media screen and (max-width: 720px) {
     .containder{
