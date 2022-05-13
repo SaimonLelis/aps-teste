@@ -178,7 +178,7 @@ section.cards section.card{
 }
 section.card .icon {
     width: 64px;
-    height: 64px;;
+    height: 64px;
 }
 section.card:first-child {
     margin-left: 0px;
