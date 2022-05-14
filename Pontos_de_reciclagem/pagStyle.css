@@ -5,20 +5,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 *{
+    max-height: 100vh;
+    max-width: 100%; 
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    max-height: 100vh;
-    max-width: 100%; 
 }
 
+body{
+    display: block;
+}
 header{
     text-align: center;
     justify-content: center;
     align-items: center;
     max-height: 8vh;
     width: auto;
-    box-shadow: hsla(0, 0%, 0%, 0.25) 1px 1px 10px 1px;
+    box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 10px 1px;
 }
 
 header ul{
@@ -58,6 +61,55 @@ header a:hover{
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 10px 1px;
 }
+
+main{
+    height: auto;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+h2.titulo1{
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: rgb(77, 77, 77);
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+section.Sc1{
+    max-height: 90%;
+    max-width: 100%;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+h3.subtitulo1{
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    text-indent: 0px;
+}
+article.At1{
+    height: 80%;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1rem;
+    text-indent: 60px;
+    text-align: justify;
+    color: #5a5a5a;
+    font-family: 'Poppins';
+}
+.Sc1 img{
+    height: auto;
+    width: auto;
+    margin: 0px;
+    box-shadow: rgba(0, 0, 0, 0.473) 1px 1px 10px 1px;
+}
+
+
 @media screen and (max-width: 560px) {
     header{
         max-height: 8vh;
@@ -67,5 +119,14 @@ header a:hover{
    }
    header li{
        margin: auto;
+   }
+   h2.titulo1{
+       font-size: max(1rem);
+   }
+   h3.subtitulo1{
+       font-size: max(0.8rem);
+   }
+   article.At1{
+       font-size: max(0.7rem);
    }
 }
