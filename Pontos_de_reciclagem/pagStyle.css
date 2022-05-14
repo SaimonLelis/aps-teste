@@ -101,12 +101,33 @@ article.At1{
     text-align: justify;
     color: #5a5a5a;
     font-family: 'Poppins';
+    margin-bottom: 20px;
 }
 .Sc1 img{
     height: auto;
     width: auto;
     margin: 0px;
     box-shadow: rgba(0, 0, 0, 0.473) 1px 1px 10px 1px;
+}
+section.Sc1 a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+section.Sc1 a:last-child{
+    margin-right: -10px;
+}
+buttom.bt1{
+    font-family: 'Poppins';
+    margin-top: 5px;
+    padding: 0.5rem 0.7rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 70%;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(to right, #69A658, #99c970 );
 }
 
 

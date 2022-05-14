@@ -215,7 +215,7 @@ section.card.btn button{
     background: linear-gradient(to right, #69A658, #99c970 );
 }
 section.card.btn{
-    box-shadow: 20px 20px 50px -43px #8baa70;
+    box-shadow: 20px 20px 50px -40px #8baa70;
 }
 @media screen and (max-width: 720px) {
     .containder{
