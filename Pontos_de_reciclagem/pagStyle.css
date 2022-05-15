@@ -104,8 +104,8 @@ article.At1{
     margin-bottom: 20px;
 }
 .Sc1 img{
-    height: auto;
-    width: auto;
+    max-height: 400px;
+    max-width: 800px;
     margin: 0px;
     box-shadow: rgba(0, 0, 0, 0.473) 1px 1px 10px 1px;
 }
@@ -128,6 +128,19 @@ buttom.bt1{
     font-weight: 500;
     color: white;
     background: linear-gradient(to right, #69A658, #99c970 );
+}
+footer{
+    height: 1rem;
+    width: 100%;
+    color: white;
+    background-color: #69A658;
+    font-size: 0.7rem;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-top: 20px;
+}
+div.foot{
+    padding-top: 50px;
 }
 
 
