@@ -198,6 +198,7 @@ section.card h3{
 section.card span{
     max-width: 250px;
     margin-bottom: 10px;
+    font-size: 1rem;
 }
 section.card button{
     font-family: 'Poppins';
@@ -207,7 +208,7 @@ section.card button{
     border-radius: 32px;
     border: 0;
     cursor: pointer;
-    font-size: 80%;
+    font-size: 0.8rem;
     font-weight: 500;
     color: white;
 }
@@ -231,6 +232,10 @@ section.card.btn{
         margin: 0px;
         margin-bottom: 30px;
         margin-left: 0px;
+        font-size: 0.8rem;
+    }
+    section.card button{
+        font-size: 0.6rem;
     }
     section.card:last-child {
         margin-bottom: 0px;
