@@ -104,8 +104,8 @@ article.At1{
     margin-bottom: 20px;
 }
 .Sc1 img{
-    max-height: 400px;
-    max-width: 800px;
+    max-height: 60vh;
+    max-width: 80%;
     margin: 0px;
     box-shadow: rgba(0, 0, 0, 0.473) 1px 1px 10px 1px;
 }
