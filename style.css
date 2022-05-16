@@ -165,7 +165,7 @@ section.cards{
     display:flex;
     flex-direction: row;
     text-align: center;
-    justify-content: center;
+    
     align-items: center;
     font-family: 'Poppins';
     padding: 32px;
@@ -219,7 +219,7 @@ section.card.btn{
 }
 @media screen and (max-width: 720px) {
     *{
-        max-height: 200vh; /*Solução Temporária? */
+        max-height: 230vh; /*Solução Temporária? */
     }
     .containder{
         flex-direction: column;
