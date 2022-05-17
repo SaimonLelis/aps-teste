@@ -217,7 +217,7 @@ section.card.btn button{
 section.card.btn{
     box-shadow: 20px 20px 50px -40px #8baa70;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 770px) {
     *{
         max-height: 230vh; /*Solução Temporária? */
     }
