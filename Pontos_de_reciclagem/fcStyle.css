@@ -152,10 +152,16 @@ footer{
         min-width: 50vw;
         max-height: 75vh;
     }
+    textarea{
+        width: 90%;
+    }
 }
 @media screen and (max-width: 620px) {
     .fc{
         min-width: 80vw;
         max-height: 75vh;
+    }
+    textarea{
+        width: 90%;
     }
 }
