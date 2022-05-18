@@ -76,7 +76,7 @@ main{
     flex-direction: column;
     margin-top: 5vh;
     height: 80vh;
-    width: 35vw;
+    min-width: 35vw;
     box-shadow: rgba(0, 0, 0, 0.45) 20px 20px 45px -30px;
     text-align: center;
     align-items: center;
@@ -146,4 +146,14 @@ footer{
     position: absolute;
     bottom: 0;
     left: 0;
+}
+@media screen and (max-width: 860px) {
+    .fc{
+        min-width: 50vw;
+    }
+}
+@media screen and (max-width: 620px) {
+    .fc{
+        min-width: 80vw;
+    }
 }
