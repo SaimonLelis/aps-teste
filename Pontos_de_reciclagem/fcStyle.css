@@ -74,7 +74,7 @@ main{
 .fc{
     display: flex;
     flex-direction: column;
-    margin-top: 3vh;
+    margin-top: 5vh;
     height: 80vh;
     width: 35vw;
     box-shadow: rgba(0, 0, 0, 0.45) 20px 20px 45px -30px;
@@ -109,7 +109,15 @@ button{
 textarea{
     width: 25vw;
     min-height: 20vh;
+    text-align: justify;
+    padding: 5px;
     resize: none;
+    border: 1px solid transparent;
+    border-image: linear-gradient(160deg, #69A658, white, white )1;
+    border-radius: 0;
+}
+linput:hover, textarea:hover, input:focus, textarea:focus{
+    outline: none;
 }
 
 .agradece{
