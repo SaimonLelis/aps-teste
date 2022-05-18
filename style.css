@@ -15,6 +15,7 @@
 header{
     max-height: 8vh;
     width: auto;
+    
 }
 
 header ul{
@@ -23,7 +24,7 @@ header ul{
 }
 
 header li{
-    margin: 3vh 2vh;
+    margin: auto 2vh;
 }
 
 header nav{

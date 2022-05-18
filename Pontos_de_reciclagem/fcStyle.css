@@ -150,10 +150,12 @@ footer{
 @media screen and (max-width: 860px) {
     .fc{
         min-width: 50vw;
+        max-height: 75vh;
     }
 }
 @media screen and (max-width: 620px) {
     .fc{
         min-width: 80vw;
+        max-height: 75vh;
     }
 }
