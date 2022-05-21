@@ -238,4 +238,7 @@ section.card.btn{
         margin-bottom: 0px;
         margin-left: 0px;
     }
+    header a:hover::after{
+        width: 0%;
+    }
 }
